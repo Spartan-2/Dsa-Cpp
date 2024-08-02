@@ -49,8 +49,8 @@ int main(){
     cin>> n;
     vector<int> dp(n+1,-1);
     vector<int> dp1(n+1);
-    //cout<<"With only recurrsion "<<endl;
-    //cout<<f(n)<<endl;
+    cout<<"With only recurrsion "<<endl;
+    cout<<f(n)<<endl;
     cout<<"With Memoiazation( Top down Approach) "<<endl;
     cout<<f1(n,dp)<<endl;
     cout<<"With Tabulation (Bottom up approach) "<<endl;
